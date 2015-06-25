@@ -30,5 +30,9 @@ class ViewController: UIViewController {
         let cha :Character? = str?[str!.startIndex]
         newValue.text?.append(cha!)
     }
+    @IBAction func pushAction(sender: AnyObject) {
+    }
+    @IBAction func pushEdit(sender: AnyObject) {
+    }
 }
 
