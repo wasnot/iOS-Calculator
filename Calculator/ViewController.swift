@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var currentValue: UILabel!
+    @IBOutlet weak var newValue: UILabel!
+    @IBOutlet weak var actionLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +23,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func pushNumber(sender: AnyObject) {
+        var button = sender as! UIButton
+        let str = button.currentTitle
+        let cha :Character? = str?[str!.startIndex]
+        newValue.text?.append(cha!)
+    }
 }
 
