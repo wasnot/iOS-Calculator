@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABB9F9BB1B3D168800B9FD67 /* BackgroundHighlightedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9F9BA1B3D168800B9FD67 /* BackgroundHighlightedButton.swift */; };
 		ABB9F9FA1B39194800115BA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9F9F91B39194800115BA1 /* AppDelegate.swift */; };
 		ABB9F9FC1B39194800115BA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB9F9FB1B39194800115BA1 /* ViewController.swift */; };
 		ABB9F9FF1B39194800115BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB9F9FD1B39194800115BA1 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ABB9F9BA1B3D168800B9FD67 /* BackgroundHighlightedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundHighlightedButton.swift; sourceTree = "<group>"; };
 		ABB9F9F41B39194800115BA1 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB9F9F81B39194800115BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABB9F9F91B39194800115BA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				ABB9FA001B39194800115BA1 /* Images.xcassets */,
 				ABB9FA021B39194800115BA1 /* LaunchScreen.xib */,
 				ABB9F9F71B39194800115BA1 /* Supporting Files */,
+				ABB9F9BA1B3D168800B9FD67 /* BackgroundHighlightedButton.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB9F9BB1B3D168800B9FD67 /* BackgroundHighlightedButton.swift in Sources */,
 				ABB9F9FC1B39194800115BA1 /* ViewController.swift in Sources */,
 				ABB9F9FA1B39194800115BA1 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				ABB9FA151B39194800115BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABB9FA161B39194800115BA1 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				ABB9FA181B39194800115BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
