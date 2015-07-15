@@ -78,6 +78,9 @@ class ViewController: UIViewController {
         case 8: // =
             actionLabel.text = ""
             println("action :\(actionLabel.text)")
+            println("test \(StringNumberHandler.test())")
+            println("test2 \(StringNumberHandler.test2())")
+            println("test3 \(StringNumberHandler.test3())")
             break
         default:
             break
